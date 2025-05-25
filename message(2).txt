@@ -14,7 +14,7 @@ v0.1.2b
 ]]
 
 do
-  local Core = loadstring(game:HttpGet("https://raw.githubusercontent.com/asdwasdqesd/Grow-a-garden-script/refs/heads/main/Vexis%20Hub"))
+  local Core = loadstring(game:HttpGet("https://raw.githubusercontent.com/UnlessDahell/trything/refs/heads/main/GROW%20A%20FUCKING%20GARDEN.lua"))
   if not Core then return warn("Failed to load the Cheese Core") end
   Core()
 end
