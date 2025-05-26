@@ -1,7 +1,7 @@
 --!strict
 local getgenv: () -> ({[string]: any}) = getfenv().getgenv
 
-getgenv().ScriptVersion = "v0.1.2b"
+getgenv().ScriptVersion = "v0.1.2b (.gg/P5CwdCTAMw) "
 
 getgenv().Changelog = [[
 v0.1.2b
@@ -10,7 +10,7 @@ v0.1.2b
 -fluxus supported
 -velocity better supported
 -krnl supported
--
+-better load time Luan Interface
 ]]
 
 do
