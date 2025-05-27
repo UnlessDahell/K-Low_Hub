@@ -58,7 +58,7 @@ repeat
 	end
 	
 	if not Luna then
-		warn("[Vexis Hub]: Failed to load Luna, retrying")
+		warn("[K-Low Hub]: Failed to load Luna, retrying")
 	end
 	
 	task.wait()
@@ -100,10 +100,10 @@ local Window = Luna:CreateWindow({
   Subtitle = `{ScriptVersion or "Dev Mode"}`,
   LogoID = "82795327169782",
   LoadingEnabled = true,
-  LoadingTitle = `RaVo's .gg/P5CwdCTAMw {ScriptVersion or "Dev Mode"}`,
+  LoadingTitle = `RaVo's {ScriptVersion or "Dev Mode"}`,
   LoadingSubtitle = PlaceName,
   ConfigSettings = {
-		RootFolder = "Vexis",
+		RootFolder = "K-Low",
 		ConfigFolder = `{getgenv().PlaceFileName}-{Player.Name}`,
 		AutoLoadConfig = true,
 	},
