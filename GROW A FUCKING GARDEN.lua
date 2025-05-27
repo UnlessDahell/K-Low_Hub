@@ -96,7 +96,7 @@ local Flags: Flags = Luna.Options
 getgenv().Flags = Flags
 
 local Window = Luna:CreateWindow({
-  Name = `Vexis | Grow A Garden`,
+  Name = `K-Low Hub | Grow A Garden`,
   Subtitle = `{ScriptVersion or "Dev Mode"}`,
   LogoID = "82795327169782",
   LoadingEnabled = true,
@@ -121,7 +121,7 @@ local Tab: Tab = Window:CreateTab({
 Tab:CreateSection("Change Log")
 
 Tab:CreateParagraph({
-	Title = `{PlaceName} | {ScriptVersion}`,
+	Title = `Grow A Garden | {ScriptVersion}`,
 	Text = getgenv().Changelog or "No changelog found",
 })
 
